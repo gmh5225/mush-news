@@ -13,3 +13,8 @@ MushNews is a crypto news aggregator for Bitcoin and cryptocurrency.
 - **Framework**: Next.js 15.0
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
+
+
+## Contributing
+We welcome contributions! Please feel free to submit a Pull Request.
+
