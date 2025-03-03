@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  compiler: {
+    removeConsole: process.env.NODE_ENV === "production",
+  },
   images: {
     unoptimized: true,
     minimumCacheTTL: 60 * 60 * 24,
